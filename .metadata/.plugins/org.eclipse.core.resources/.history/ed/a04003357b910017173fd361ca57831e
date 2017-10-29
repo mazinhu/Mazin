@@ -1,0 +1,23 @@
+package sessopm2.oopLibrary;
+
+public class Books {
+String _title;
+String _author;
+int _available;
+int _maxavailable;
+
+public Books(){
+	this("notitle", "noauthor", 50);
+}
+public Books(String title, String author, int max) {
+	_title = title;
+	_author=author;
+	_maxavailable=max;
+	
+}
+
+public static void main (String arguments[]){
+
+}
+
+}

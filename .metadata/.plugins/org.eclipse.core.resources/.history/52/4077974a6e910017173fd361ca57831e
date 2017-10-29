@@ -1,0 +1,30 @@
+package session1.introduction;
+
+public class Marathon {
+
+	
+	public static void main (String[] arguments)
+	{
+		int[] times= {150,170,175,185,155,180,250,300,280,276};
+		
+		int maxvalue=times[0];
+		int secmaxvalue=times[0];
+		for (int i=0;i<10;i++){
+		//	System.out.println(times[i]);
+		
+		if (times[i]<maxvalue){
+			maxvalue=times[i];
+		}
+							}//end of for
+				System.out.println(maxvalue);
+				for (int i=0;i<10;i++){
+					//	System.out.println(times[i]);
+					
+					if (times[i]<maxvalue){
+						secmaxvalue=times[i];
+					}
+										}
+				System.out.println(secmaxvalue);
+		
+	}
+}

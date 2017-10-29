@@ -1,0 +1,13 @@
+package sessopm2.oopLibrary;
+
+public class Library {
+
+Books[] allbooks = new Books[5];	
+Books book1= new Books("Book1", "author1", 50);	
+
+
+public static void main (String arguments[]){
+	 
+}
+
+}

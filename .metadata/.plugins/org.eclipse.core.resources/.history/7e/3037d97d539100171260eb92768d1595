@@ -1,0 +1,44 @@
+package session1.introduction;
+
+public class Square {
+	public static void printSquare(double x)
+	{
+		System.out.println(x*x);
+	}
+	public static void printSquare(String x)
+	{
+		System.out.println(x+x);
+	}
+
+	
+	public static void main (String[] arguments)
+	{
+		int value=2;
+		printSquare(value);
+		printSquare(value*2);
+		printSquare(3);
+		printSquare("HelloWorld");
+	    printSquare(5.5);	
+	}
+	
+}
+
+ class SquareChange {
+	public static void printSquare(double x)
+	{
+		System.out.println("printSquare x= " +x);
+		x=x*x;
+		System.out.println("printSquare x="+x);
+	}
+	public static void main (String[] arguments)
+	{
+int x=5;
+System.out.println("main x="+x);
+printSquare(x);
+System.out.println("main x="+x);
+	}
+
+	
+	
+	
+}
